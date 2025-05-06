@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penyombaan</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', Arial, sans-serif;
+            color: white;
+            position: relative;
+        }
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            object-fit: cover;
+            filter: brightness(0.7); /* Biar teks lebih keliatan */
+        }
+        .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 5px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.navbar h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.navbar .menu-links {
+    display: flex;
+    gap: 15px; /* ini buat ngatur jarak antar link */
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+    padding: 3px 10px;
+}
+
+.navbar a:hover {
+    color: #bdbcba;
+
+
+        }
+        .menu-utama {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            flex-direction: column;
+            text-align: center;
+            padding: 0 20px;
+        }
+        .menu-utama h1 {
+            font-size: 40px;
+            margin-bottom: 20px;
+        }
+        .menu-utama button {
+            padding: 15px 35px;
+            font-size: 20px;
+            border: none;
+            border-radius: 10px;
+            cursor: pointer;
+            background-color: #ffffff;
+            color: rgb(0, 0, 0);
+            transition: all 0.3s;
+        }
+        .menu-utama button:hover {
+            background-color: #bcbbba;
+            color: rgb(0, 0, 0);
+        }
+    </style>
+</head>
+<body>
+    <img src="gambar_1.jpg" alt="Background Lamandau" class="background">
+    
+    <div class="navbar">
+        <h2>Penyombaan</h2>
+        <div class="menu-links">
+            <a href="#">Home</a>
+            <a href="#">Tentang</a>
+            <a href="#">Kontak</a>
+        </div>
+    </div>
+    
+    </div>
+
+    <div class="menu-utama">
+        <h1>Jelajahi Desa Penyombaan</h1>
+        
+        <button onclick="location.href='lamandau.html'">Klik Disini</button> 
+    </div>
+</body>
+</html>
